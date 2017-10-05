@@ -1,0 +1,50 @@
+#!/system/bin/sh
+
+#===============================
+#main 
+#===============================
+
+FP_Vendor=`getprop ro.fingerprint.vendor`
+case $FP_Vendor in
+"default")
+	gx_fpcmd 0 | grep 'PASS'   > /dev/null
+	if [ "$?" == "0" ];then
+    		echo  1
+	else
+    		echo  0
+	fi
+#;;
+#"plato")
+#	gx_fpcmd 0 | grep 'PASS'   > /dev/null
+#	if [ "$?" == "0" ];then
+#    		echo  1
+#	else
+#    		echo  0
+#	fi
+;;
+*)
+    echo "NO This Fingerprint!"
+;;
+esac
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

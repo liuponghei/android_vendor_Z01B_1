@@ -1,0 +1,53 @@
+#!/system/bin/sh
+
+help() {
+    echo "
+API: ATD TestCommand Interface 
+
+FORMAT: adb shell /data/data/FingerPrintTest Para1
+
+RETURN VALUE: 0/1   (0 = fail , 1 = pass)
+
+USAGE:
+  <FingerPrintTest selftest.>
+    (para1) 0
+
+  <FingerPrintTest has finger.>
+    (para1) 1
+
+"
+exit 0
+}
+
+#===============================
+#main 
+#===============================
+FP_Vendor=`getprop ro.fingerprint.vendor`
+case $FP_Vendor in
+"default")
+	case $1 in
+	"0")
+		gx_fpcmd 0
+	;;
+	"1")
+		gx_fpcmd 1
+	;;
+	*)
+    	help
+	esac
+#;;
+#"plato")
+#	case $1 in
+#	"0")
+#		gx_fpcmd 0
+#	;;
+#	"1")
+#		gx_fpcmd 1
+#	;;
+#	*)
+#    	help
+#	esac	
+;;
+*)
+	help
+esac
