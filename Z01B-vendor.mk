@@ -1120,14 +1120,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z01B/proprietary/etc/firmware/8937/cppf.b06:system/etc/firmware/8937/cppf.b06 \
     vendor/asus/Z01B/proprietary/etc/firmware/8937/cppf.mdt:system/etc/firmware/8937/cppf.mdt \
     vendor/asus/Z01B/proprietary/etc/firmware/ice40.bin:system/etc/firmware/ice40.bin \
-    vendor/asus/Z01B/proprietary/etc/firmware/8937/keymaster.b00:system/etc/firmware/8937/keymaster.b00 \
-    vendor/asus/Z01B/proprietary/etc/firmware/8937/keymaster.b01:system/etc/firmware/8937/keymaster.b01 \
-    vendor/asus/Z01B/proprietary/etc/firmware/8937/keymaster.b02:system/etc/firmware/8937/keymaster.b02 \
-    vendor/asus/Z01B/proprietary/etc/firmware/8937/keymaster.b03:system/etc/firmware/8937/keymaster.b03 \
-    vendor/asus/Z01B/proprietary/etc/firmware/8937/keymaster.b04:system/etc/firmware/8937/keymaster.b04 \
-    vendor/asus/Z01B/proprietary/etc/firmware/8937/keymaster.b05:system/etc/firmware/8937/keymaster.b05 \
-    vendor/asus/Z01B/proprietary/etc/firmware/8937/keymaster.b06:system/etc/firmware/8937/keymaster.b06 \
-    vendor/asus/Z01B/proprietary/etc/firmware/8937/keymaster.mdt:system/etc/firmware/8937/keymaster.mdt \
     vendor/asus/Z01B/proprietary/etc/firmware/8937/venus.b00:system/etc/firmware/8937/venus.b00 \
     vendor/asus/Z01B/proprietary/etc/firmware/8937/venus.b01:system/etc/firmware/8937/venus.b01 \
     vendor/asus/Z01B/proprietary/etc/firmware/8937/venus.b02:system/etc/firmware/8937/venus.b02 \
@@ -1192,14 +1184,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z01B/proprietary/etc/firmware/cppf.b06:system/etc/firmware/cppf.b06 \
     vendor/asus/Z01B/proprietary/etc/firmware/cppf.mdt:system/etc/firmware/cppf.mdt \
     vendor/asus/Z01B/proprietary/etc/firmware/ice40.bin:system/etc/firmware/ice40.bin \
-    vendor/asus/Z01B/proprietary/etc/firmware/keymaster.b00:system/etc/firmware/keymaster.b00 \
-    vendor/asus/Z01B/proprietary/etc/firmware/keymaster.b01:system/etc/firmware/keymaster.b01 \
-    vendor/asus/Z01B/proprietary/etc/firmware/keymaster.b02:system/etc/firmware/keymaster.b02 \
-    vendor/asus/Z01B/proprietary/etc/firmware/keymaster.b03:system/etc/firmware/keymaster.b03 \
-    vendor/asus/Z01B/proprietary/etc/firmware/keymaster.b04:system/etc/firmware/keymaster.b04 \
-    vendor/asus/Z01B/proprietary/etc/firmware/keymaster.b05:system/etc/firmware/keymaster.b05 \
-    vendor/asus/Z01B/proprietary/etc/firmware/keymaster.b06:system/etc/firmware/keymaster.b06 \
-    vendor/asus/Z01B/proprietary/etc/firmware/keymaster.mdt:system/etc/firmware/keymaster.mdt \
     vendor/asus/Z01B/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
     vendor/asus/Z01B/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
     vendor/asus/Z01B/proprietary/etc/firmware/nvm_tlv.bin:system/etc/firmware/nvm_tlv.bin \
